@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests should verify all utils functions Should verify getAllReviewsByDefault to get reviews 1`] = `
+Object {
+  "reviews": Array [
+    Object {
+      "author": "_Reef_",
+      "product_name": "Amazon Alexa",
+      "rating": 1,
+      "review": "No point in stating the obvious, app is garbage right now. I like Alexa but find it hard to believe Bezos uses this glitchy app.",
+      "review_source": "iTunes",
+      "reviewed_date": "2017-12-18T22:04:04.000Z",
+      "title": "Does Jeff Bezos use this?",
+    },
+  ],
+}
+`;
+
+exports[`Tests should verify all utils functions Should verify getAllReviewsByDefault to get reviews: ./data/review.json 1`] = `
+Object {
+  "reviews": Array [
+    Object {
+      "author": "_Reef_",
+      "product_name": "Amazon Alexa",
+      "rating": 1,
+      "review": "No point in stating the obvious, app is garbage right now. I like Alexa but find it hard to believe Bezos uses this glitchy app.",
+      "review_source": "iTunes",
+      "reviewed_date": "2017-12-18T22:04:04.000Z",
+      "title": "Does Jeff Bezos use this?",
+    },
+  ],
+}
+`;
+
+exports[`Tests should verify all utils functions Should verify getReviewsByGivenRating to get reviews: ./data/review.json 1`] = `undefined`;
+
+exports[`Tests should verify all utils functions Should verify getReviewsByGivenStore to get reviews: ./data/review.json 1`] = `
+Object {
+  "reviews": Array [
+    Object {
+      "author": "_Reef_",
+      "product_name": "Amazon Alexa",
+      "rating": 1,
+      "review": "No point in stating the obvious, app is garbage right now. I like Alexa but find it hard to believe Bezos uses this glitchy app.",
+      "review_source": "iTunes",
+      "reviewed_date": "2017-12-18T22:04:04.000Z",
+      "title": "Does Jeff Bezos use this?",
+    },
+  ],
+}
+`;
+
+exports[`Tests should verify all utils functions Should verify getReviewsonGivenDate to get reviews 1`] = `undefined`;
+
+exports[`Tests should verify all utils functions Should verify getReviewsonGivenDate to get reviews: ./data/review.json 1`] = `
+Object {
+  "reviews": Array [
+    Object {
+      "author": "_Reef_",
+      "product_name": "Amazon Alexa",
+      "rating": 1,
+      "review": "No point in stating the obvious, app is garbage right now. I like Alexa but find it hard to believe Bezos uses this glitchy app.",
+      "review_source": "iTunes",
+      "reviewed_date": "2017-12-18T22:04:04.000Z",
+      "title": "Does Jeff Bezos use this?",
+    },
+  ],
+}
+`;

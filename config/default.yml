@@ -1,0 +1,4 @@
+MongoURL: mongodb://localhost:27017/
+DbName: ReviewApp
+collectionName: allReviews
+NODE_ENV: test
